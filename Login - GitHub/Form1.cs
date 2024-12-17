@@ -15,6 +15,7 @@ namespace Login___GitHub
         public Form1()
         {
             InitializeComponent();
+            Data.Connection.openConnection();
         }
     }
 }
